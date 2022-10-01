@@ -1,0 +1,10 @@
+Sample.limsid,donor_id,donor_sex,growth system,mouse id,litter id,mouse_sex,larry_transfection,treatment,preparation date
+x,A,x,in vitro,NA,NA,x,A,vehicle,0000-00-00
+x,A,x,in vitro,NA,NA,x,A,capivasertib,0000-00-00
+x,A,x,in vitro,NA,NA,x,B,vehicle,0000-00-00
+x,A,x,in vitro,NA,NA,x,B,capivasertib,0000-00-00
+x,A,x,in vitro,NA,NA,x,C,vehicle,0000-00-00
+x,A,x,in vitro,NA,NA,x,C,capivasertib,0000-00-00
+x,A,x,in vivo,x,x,x,D,NA,0000-00-00
+x,A,x,in vivo,x,x,x,E,NA,0000-00-00
+x,A,x,in vivo,x,x,x,F,NA,0000-00-00
