@@ -11,4 +11,3 @@ jobs:
     uses: ChristopherBarrington/babs-workflows/.github/workflows/convert-experiment-table-xlsx.yml@main
     with:
       target-file: 'babs/docs/experiment_table.xlsx'
-      output-formats: 'csv'
