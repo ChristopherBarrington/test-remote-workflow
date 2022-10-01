@@ -8,7 +8,7 @@ on:
 
 jobs:
   compliance:
-    uses: ChristopherBarrington/babs-workflows/.github/workflows/convert-experiment-table-to-csv.yml@main
+    uses: ChristopherBarrington/babs-workflows/.github/workflows/convert-experiment-table.yml@main
     with:
       FOOBAR: foobar
       TABLE_FILE: 'babs/docs/experiment_table.xlsx'
