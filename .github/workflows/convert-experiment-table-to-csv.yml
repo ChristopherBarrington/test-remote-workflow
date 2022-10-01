@@ -8,4 +8,4 @@ on:
 
 jobs:
   compliance:
-    uses: ChristopherBarrington/xlsx2csv-action/.github/workflows/convert-experiment-table-to-csv.yml@main
+    uses: ChristopherBarrington/babs-workflows/.github/workflows/convert-experiment-table-to-csv.yml@main
