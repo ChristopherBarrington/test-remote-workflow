@@ -11,3 +11,4 @@ jobs:
     uses: ChristopherBarrington/babs-workflows/.github/workflows/convert-experiment-table-to-csv.yml@main
     with:
       FOOBAR: foobar
+      TABLE_FILE: 'babs/docs/experiment_table.xlsx'
