@@ -1,0 +1,11 @@
+name: Convert experiment_table.xlsx
+
+on:
+  push:
+    paths:
+      - 'babs/docs/experiment_table.xlsx'
+  workflow_dispatch:
+
+jobs:
+  compliance:
+    uses: ChristopherBarrington/test-convert-experiment-table/.github/workflows/convert-experiment-table-to-csv.yml@main
