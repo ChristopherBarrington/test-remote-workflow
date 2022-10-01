@@ -9,3 +9,5 @@ on:
 jobs:
   compliance:
     uses: ChristopherBarrington/babs-workflows/.github/workflows/convert-experiment-table-to-csv.yml@main
+    with:
+      FOOBAR: foobar
