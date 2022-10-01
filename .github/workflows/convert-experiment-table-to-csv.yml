@@ -1,14 +1,4 @@
 name: Convert experiment_table.xlsx
-
-on:
-  push:
-    paths:
-      - 'babs/docs/experiment_table.xlsx'
-  workflow_dispatch:
-
 jobs:
-  compliance:
+  run_remote:
     uses: ChristopherBarrington/babs-workflows/.github/workflows/convert-experiment-table.yml@main
-    with:
-      FOOBAR: foobar
-      TABLE_FILE: 'babs/docs/experiment_table.xlsx'
