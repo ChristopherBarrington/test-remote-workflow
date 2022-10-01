@@ -1,4 +1,6 @@
 name: Convert experiment_table.xlsx
+on:
+  workflow_dispatch:
 jobs:
   run_remote:
     uses: ChristopherBarrington/babs-workflows/.github/workflows/convert-experiment-table.yml@main
