@@ -3,4 +3,4 @@
 Body
 
 ![Text Description automatically generated with medium
-confidence](media/image1.jpg)
+confidence](babs/docs/proposal_media/media/image1.jpg)
