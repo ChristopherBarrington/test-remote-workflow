@@ -4,10 +4,17 @@ on:
   issue_comment:
     types: [created, edited]
 jobs:
- dump:
+ print:
   runs-on: ubuntu-latest
   steps:
   - name: print body
     env:
       BODY: ${{ github.event.comment.body }}
     run: echo "$BODY"
+ dump:
+  runs-on: ubuntu-latest
+  steps:
+  - name: $github
+    run:   echo "$GITHUB_CONTEXT"
+    env:
+     GITHUB_CONTEXT: ${{ toJson(github) }}
